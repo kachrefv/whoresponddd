@@ -25,6 +25,7 @@ The project follows a standard Next.js App Router structure, promoting clear sep
 *   **`app/`**: This is the core directory for the Next.js App Router. It contains all page-level components, layouts, and API routes.
     *   **`app/api/`**: Houses all Next.js API routes, serving as the backend endpoints for authentication (`auth/[...nextauth]/route.ts`), order management (`orders/route.ts`, `orders/[orderId]/route.ts`), product management (`products/route.ts`), and user registration (`register/route.ts`).
     *   **`app/dashboard/`**: Contains the protected dashboard page (`page.tsx`) where authenticated users can manage their sales and analytics.
+    *   **`app/admin/`**: Contains the protected admin panel page (`page.tsx`) for managing users, products, and orders.
     *   **`app/login/`, `app/register/`, `app/reset-password/`**: Dedicated directories for authentication-related user interface pages.
     *   **`app/globals.css`**: Defines global styles for the application, primarily utilizing Tailwind CSS directives.
     *   **`app/layout.tsx`**: The root layout component that wraps the entire application, providing a consistent structure.
