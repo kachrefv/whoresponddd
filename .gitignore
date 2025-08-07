@@ -1,0 +1,1 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.## next.js/.next/out/node_modules/npm-debug.log*.log.env.local.env.production.local.env.development.local.env.test.local.env*.db.sqlite.sqlite-journal.DS_Store.idea.vscode
